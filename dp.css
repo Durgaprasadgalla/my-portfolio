@@ -89,6 +89,16 @@ img{
     align-items: center;
     justify-content: center;
 }
+.resume{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.resume-btn{
+  border: 2px solid white;
+  border-radius: 5px;
+}
 .Education{
   background-color:black;
   color: white;
