@@ -80,7 +80,7 @@
 }
 .role{
     color:white;
-    font-size:12px;
+    font-size:11px;
 }
 .dp-img{
     border-radius: 50%;
@@ -103,7 +103,7 @@
 }
 .resume-btn{
     height: 40px;
-    width: 120px;
+    width: 115px;
     background-color: #e91e63;
     cursor: pointer;
     min-width:0;
@@ -114,20 +114,6 @@
 .resume-btn:hover{
     background-color: white;
     color: black;
-}
-.Education{
-  background-color:black;
-  color: white;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  border:1px solid white;
-}
-.education-heading{
-    color: brown;
-    font-size: 30px;
 }
 .Projects{
   background-color:black;
@@ -284,6 +270,21 @@ width: 100%;
 background-color:rgb(244, 236, 236);
 border:2px solid black;
 }
+.Education{
+    background-color:black;
+    color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border:1px solid white;
+  }
+  .education-heading{
+      color: brown;
+      font-size: 30px;
+      /* margin: -15%; */
+  }
 .b-tech,.inter,.th{
 /* background-color: #e91e63; */
 font-size: 15px;
@@ -293,7 +294,7 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-margin: 1%;
+margin-left:10%;
 border-left:0.5px solid white ;
 }
 .b-tech:hover{
@@ -306,7 +307,7 @@ position: absolute;
 width: 16px;
 height: 16px;
 border-radius: 50%;
-left:3%;
+left:11%;
 top: 0;
 background-color: white;
 border: 2px solid white;
@@ -321,7 +322,7 @@ position: absolute;
 width: 16px;
 height: 16px;
 border-radius: 50%;
-left:3%;
+left:11%;
 top: 0;
 background-color: white;
 border: 2px solid white;
@@ -337,7 +338,7 @@ position: absolute;
 width: 16px;
 height: 16px;
 border-radius: 50%;
-left:3%;
+left:11%;
 top: 0;
 background-color: white;
 border: 2px solid white;
@@ -347,4 +348,190 @@ border: 2px solid white;
 width: 30px;
 height: 30px;
 border-radius: 50%;
+}
+
+@media(min-width:901px){
+    .dp-img{
+        border-radius: 50%;
+        height: 350px;
+        width: 350px;
+        cursor: pointer;
+        border: 5px#e91e63 solid;
+    }
+    .my-name{
+        color:white;
+        font-family: 'poppins',sans-serif;
+        font-size: 40px;
+        text-transform: uppercase;
+    }
+    .role{
+        color:white;
+        font-size:20px;
+    }
+    .Projects{
+        background-color:black;
+        color: white;
+        min-height:100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border:1px solid white;
+      }
+      
+      .card-1{
+          background-color: white;
+          min-height:0%;
+          padding: 5%;
+          color: black;
+          margin-top:14%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          gap:20px;
+      
+      }
+      .card-1:hover{
+          background-color:rgb(74, 187, 222);
+      }
+      .site-link{
+          color:white;
+          background-color:rgb(25, 79, 229) ;
+          padding: 3px;
+          border: 1px solid black;
+          border-radius: 5PX;
+      
+      }
+    .box-1{
+        height: 450px;
+        width: 400px;
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border:1px solid white;
+        gap: 20px;
+      }
+      .box-1:hover{
+      box-shadow: 0px 3px 12px 0px white;
+      border: 1px solid transparent;
+      }
+      input{
+      width: 80%;
+      height: 8%;
+      border-radius: 5px;
+      }
+      textarea{
+      width: 80%;
+      border-radius: 10px;
+      }
+      .button-submit{
+      width: 30%;
+      height: 8%;
+      color: white;
+      background-color: blue;
+      border-radius:10px;
+      border: 1px solid white;
+      }
+      .button-submit:hover{
+      box-shadow: 0px 3px 12px 0px white;
+      border: 1px solid transparent;
+      }
+      .resume{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5%;
+    }
+    .resume-btn{
+        height: 50px;
+        width: 150px;
+        background-color: #e91e63;
+        cursor: pointer;
+        min-width:0;
+        min-height:0;
+        border-radius: 24Px;
+        color: white;
+    }
+    .resume-btn:hover{
+        background-color: white;
+        color: black;
+    }
+    .Education{
+        background-color:black;
+        color: white;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border:1px solid white;
+      }
+      .education-heading{
+          color: brown;
+          font-size: 30px;
+          margin-top: -10%;
+          margin-bottom: -20%;
+      }
+      .s-a{
+        font-size: 20px;
+      }
+}
+
+@media(min-width:601px)and (max-width:900px){
+    .dp-img{
+        border-radius: 50%;
+        height: 280px;
+        width: 280px;
+        cursor: pointer;
+        border: 4px#e91e63 solid;
+    }
+    .my-name{
+        color:white;
+        font-family: 'poppins',sans-serif;
+        font-size: 30px;
+        text-transform: uppercase;
+    }
+    .role{
+        color:white;
+        font-size:15px;
+    }
+    .box-1{
+        height: 450px;
+        width: 400px;
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border:1px solid white;
+        gap: 20px;
+      }
+      .box-1:hover{
+      box-shadow: 0px 3px 12px 0px white;
+      border: 1px solid transparent;
+      }
+      input{
+      width: 80%;
+      height: 8%;
+      border-radius: 5px;
+      }
+      textarea{
+      width: 80%;
+      border-radius: 10px;
+      }
+      .button-submit{
+      width: 30%;
+      height: 8%;
+      color: white;
+      background-color: blue;
+      border-radius:10px;
+      border: 1px solid white;
+      }
+      .button-submit:hover{
+      box-shadow: 0px 3px 12px 0px white;
+      border: 1px solid transparent;
+      }
 }
