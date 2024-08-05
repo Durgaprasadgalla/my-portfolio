@@ -104,16 +104,17 @@
 .resume-btn{
     height: 40px;
     width: 115px;
-    background-color: #e91e63;
+    background-color:white;
+    font-weight: bold;
     cursor: pointer;
     min-width:0;
     min-height:0;
     border-radius: 24Px;
-    color: white;
+    color: black;
 }
 .resume-btn:hover{
-    background-color: white;
-    color: black;
+    background-color:#f45288;
+    color:black;
 }
 .Projects{
   background-color:black;
@@ -448,16 +449,17 @@ border-radius: 50%;
     .resume-btn{
         height: 50px;
         width: 150px;
-        background-color: #e91e63;
+        background-color:white;
+        font-weight: bold;
         cursor: pointer;
         min-width:0;
         min-height:0;
         border-radius: 24Px;
-        color: white;
+        color:black;
     }
     .resume-btn:hover{
-        background-color: white;
-        color: black;
+        background-color:#f45288;
+        color:black;
     }
     .Education{
         background-color:black;
@@ -472,8 +474,8 @@ border-radius: 50%;
       .education-heading{
           color: brown;
           font-size: 30px;
-          margin-top: -10%;
-          margin-bottom: -20%;
+          /* margin-top: -10%;
+          margin-bottom: -10%; */
       }
       .s-a{
         font-size: 20px;
