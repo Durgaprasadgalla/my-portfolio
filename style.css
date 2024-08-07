@@ -1,6 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Montserrat:wght@400;700&family=Open+Sans:wght@400;700&family=Roboto:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Lato:300,400|Poppins:300,400,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Playwrite+HU:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Timmana&display=swap');
 *{
     margin: 0px;
     padding: 0px;
@@ -75,12 +74,15 @@
 }
 .my-name{
     color:white;
-    font-family: 'Courier New', Courier, monospace;
+    font-family:'Timmana' ,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
     text-transform: uppercase;
 }
 .role{
     color:white;
-    font-size:11px;
+    font-size:13px;
 }
 .dp-img{
     border-radius: 50%;
@@ -116,47 +118,6 @@
 .resume-btn:hover{
     background-color:#f45288;
     color:black;
-}
-.Projects{
-  background-color:black;
-  color: white;
-  min-height:100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 5%;
-  border:1px solid white;
-}
-
-.card-1{
-    background-color: white;
-    min-height:0%;
-    padding: 5%;
-    color: black;
-    margin-top: 4%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap:20px;
-
-}
-.card-1:hover{
-    background-color:rgb(74, 187, 222);
-}
-/* .card-img{
-    width: 100px;
-    height: 200px;
-} */
-.site-link{
-    color:white;
-    background-color:rgb(25, 79, 229) ;
-    padding: 3px;
-    border:  white;
-    border-radius: 5PX;
-
-
 }
 .About{
   background-color: black;
@@ -208,84 +169,22 @@ margin-bottom: 15px;
 }
 .about-section ul {
 color: white;
-font-size:15px;
 margin-bottom: 15px;
 }
-
+.skills-list{
+    font-size: 13px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
 .about-section .highlight {
 color: #007BFF;
 font-weight: bold;
 }
-
-.Contact{
-  background-color:black;
-  color: white;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  border:1px solid white;
-  border: white solid;
-}
-.box-1{
-  height: 400px;
-  width: 300px;
-  cursor: pointer;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  border:1px solid white;
-  gap: 20px;
-}
-.box-1:hover{
-box-shadow: 0px 3px 12px 0px white;
-border: 1px solid transparent;
-}
-input{
-width: 80%;
-height: 8%;
-border-radius: 5px;
-}
-textarea{
-width: 80%;
-border-radius: 10px;
-}
-.button-submit{
-width: 30%;
-height: 8%;
-color: white;
-background-color: blue;
-border-radius:10px;
-border: 1px solid black;
-}
-.button-submit:hover{
-box-shadow: 0px 3px 12px 0px white;
-border: 1px solid transparent;
-}
-.footer-info{
-    margin-top: 5%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.footer-social{
-/* margin-top: 5%; */
-display: flex;
-/* flex-direction: column; */
-justify-content: center;
-align-items: center;
-column-gap: 20px;
-gap: 10px;
-padding: 5%;
-}
-
-.footer{
-width: 100%;
-background-color:rgb(244, 236, 236);
-border:2px solid black;
+.skil-head{
+    color: brown; 
+    font-size:16px;
 }
 .Education{
     background-color:black;
@@ -303,7 +202,7 @@ border:2px solid black;
       /* margin: -15%; */
   }
   .b-c{
-    font-size: 14px;
+    font-size: 13px;
   }
 .b-tech,.inter,.th{
 /* background-color: #e91e63; */
@@ -362,7 +261,93 @@ left:11%;
 top: 0;
 background-color: white;
 border: 2px solid white;
-
+}
+.Projects{
+    background-color:black;
+    color: white;
+    min-height:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    border:1px solid white;
+  }
+  
+  .card-1{
+      background-color: white;
+      min-height:0%;
+      padding: 5%;
+      color: black;
+      margin-top: 4%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap:20px;
+  
+  }
+  .card-1:hover{
+      background-color:rgb(74, 187, 222);
+      
+  }
+  .card-img{
+      border: black solid 1px;
+  }
+  .site-link{
+      color:white;
+      background-color:rgb(25, 79, 229) ;
+      padding: 3px;
+      border:  white;
+      border-radius: 5PX;
+  }
+.Contact{
+  background-color:black;
+  color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border:1px solid white;
+  border: white solid;
+}
+.box-1{
+  height: 300px;
+  width: 300px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border:1px solid white;
+  gap: 20px;
+}
+.box-1:hover{
+box-shadow: 0px 3px 12px 0px white;
+border: 1px solid transparent;
+}
+.footer{
+width: 100%;
+background-color:rgb(244, 236, 236);
+border:2px solid black;
+}
+.footer-info{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-social{
+/* margin-top: 5%; */
+display: flex;
+/* flex-direction: column; */
+justify-content: center;
+align-items: center;
+column-gap: 20px;
+gap: 10px;
+padding: 5%;
 }
 .icon{
 width: 30px;
@@ -381,7 +366,7 @@ border-radius: 50%;
     p{
     margin: 10px;
     font-weight: bold;
-    font-size: 10px;
+    font-size: 12px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 }
@@ -395,8 +380,8 @@ border-radius: 50%;
     }
     .my-name{
         color:white;
-        font-family: 'poppins',sans-serif;
-        font-size: 36px;
+        font-family: 'Timmana' ,sans-serif;
+        font-size: 50px;
         text-transform: uppercase;
         margin-top: 10%;
     }
@@ -440,7 +425,7 @@ border-radius: 50%;
       
       }
     .box-1{
-        height: 450px;
+        height: 300px;
         width: 400px;
         cursor: pointer;
         display: flex;
@@ -451,28 +436,6 @@ border-radius: 50%;
         gap: 20px;
       }
       .box-1:hover{
-      box-shadow: 0px 3px 12px 0px white;
-      border: 1px solid transparent;
-      }
-      input{
-      width: 80%;
-      height: 8%;
-      border-radius: 5px;
-      }
-      textarea{
-      width: 80%;
-      border-radius: 10px;
-      }
-      .button-submit{
-      width: 30%;
-      height: 8%;
-      color: white;
-      background-color: blue;
-      border-radius:10px;
-      border: 1px solid black;
-      border:black solid;
-      }
-      .button-submit:hover{
       box-shadow: 0px 3px 12px 0px white;
       border: 1px solid transparent;
       }
@@ -541,8 +504,8 @@ border-radius: 50%;
     }
     .my-name{
         color:white;
-        font-family: 'poppins',sans-serif;
-        font-size: 30px;
+        font-family: 'Timmana' ,sans-serif;
+        font-size: 40px;
         text-transform: uppercase;
     }
     .role{
@@ -550,7 +513,7 @@ border-radius: 50%;
         font-size:15px;
     }
     .box-1{
-        height: 450px;
+        height: 300px;
         width: 400px;
         cursor: pointer;
         display: flex;
@@ -561,28 +524,6 @@ border-radius: 50%;
         gap: 20px;
       }
       .box-1:hover{
-      box-shadow: 0px 3px 12px 0px white;
-      border: 1px solid transparent;
-      }
-      input{
-      width: 80%;
-      height: 8%;
-      border-radius: 5px;
-      }
-      textarea{
-      width: 80%;
-      border-radius: 10px;
-      }
-      .button-submit{
-      width: 30%;
-      height: 8%;
-      color: white;
-      background-color: blue;
-      border-radius:10px;
-      border: 1px solid white;
-      border:solid black;
-      }
-      .button-submit:hover{
       box-shadow: 0px 3px 12px 0px white;
       border: 1px solid transparent;
       }
